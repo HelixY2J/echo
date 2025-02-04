@@ -1,0 +1,13 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+cmd = "go build -o tmp/main . "
+bin = "tmp/main"
+delay = 1000
+
+[log]
+level = "debug"
+
+[watcher]
+dirs = ["."]
